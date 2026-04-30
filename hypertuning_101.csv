@@ -1,0 +1,62 @@
+########################### min_rats = 5:
+
+k = 384, l_b =  3.30, l_f =  9.00, results: counter =  12, max_norm_diff =    1.75, valid_rmse = 1.594156, valid_ndcg = 0.000469, valid_rmse_diff = 9.1e-06, valid_ndcg_diff = -3.2e-05
+k = 384, l_b =  3.40, l_f =  9.00, results: counter =  12, max_norm_diff =    1.75, valid_rmse = 1.594186, valid_ndcg = 0.000469, valid_rmse_diff = 8.9e-06, valid_ndcg_diff = 0 
+
+
+
+########################### min_rats = 3:
+###
+k3='  1', l_b3='4.2', l_f4='21.5', results: counter3=' 11', max_norm_diff8='0.61175716 ', valid_rmse8='1.56900912 ', valid_rmse_diff12='1.7804928e-05'
+###
+###
+k3='  2', l_b3='4.2', l_f4='27  ', results: counter3=' 18', max_norm_diff8='0.17515877 ', valid_rmse8='1.56917641 ', valid_rmse_diff12='8.987589e-06'
+###
+###
+k3='  4', l_b3='4.2', l_f4='30.5', results: counter3=' 16', max_norm_diff8='0.08846175 ', valid_rmse8='1.56922109 ', valid_rmse_diff12='8.748377e-06'
+###
+###
+k3='  8', l_b3='4.2', l_f4='26.5', results: counter3=' 16', max_norm_diff8='0.10634613 ', valid_rmse8='1.56919145 ', valid_rmse_diff12='9.173908e-06'
+###
+###
+k3=' 16', l_b3='4.2', l_f4='27  ', results: counter3=' 17', max_norm_diff8='0.07042102 ', valid_rmse8='1.56918112 ', valid_rmse_diff12='8.21945e-06 '
+###
+###
+k3=' 32', l_b3='4  ', l_f4='13  ', results: counter3=' 38', max_norm_diff8='0.38295437 ', valid_rmse8='1.56965569 ', valid_rmse_diff12='9.337958e-06'
+###
+###
+k3=' 64', l_b3='4.1', l_f4='13.5', results: counter3=' 10', max_norm_diff8='1.69086365 ', valid_rmse8='1.56919292 ', valid_rmse_diff12='2.182842e-06'
+###
+###
+k3='128', l_b3='4  ', l_f4='11  ', results: counter3=' 10', max_norm_diff8='2.36116249 ', valid_rmse8='1.56802944 ', valid_rmse_diff12='1.3304138e-05'
+###
+###
+k3='256', l_b3='4  ', l_f4='11.5', results: counter3=' 10', max_norm_diff8='2.18300228 ', valid_rmse8='1.56863876 ', valid_rmse_diff12='7.836944e-06'
+###
+###
+k = 384, l_b =  3.80, l_f =  9.00, results: counter =   8, max_norm_diff = 3.97, valid_rmse = 1.56741029, valid_rmse_diff = 1.8e-06
+###
+
+k3='512', l_b3='3.8', l_f4='8.5 ', results: counter3='  6', max_norm_diff8='6.04663355 ', valid_rmse8='1.56700671 ', valid_rmse_diff12='2.1180135e-05'
+
+
+# MISTAKES IN TUNING:
+# k =   1, l_b = 4.20, l_f = 21.50, results: counter =  11, max_norm_diff = 0.61, valid_rmse = 1.56901412, valid_rmse_diff = 1.8e-05
+# k =   1, l_b = 4.30, l_f = 21.50, results: counter =  11, max_norm_diff = 0.61, valid_rmse = 1.56902231, valid_rmse_diff = 1.7e-05
+# k =   1, l_b = 4.10, l_f = 21.50, results: counter =  11, max_norm_diff = 0.61, valid_rmse = 1.56902910, valid_rmse_diff = 1.8e-05
+# k =   1, l_b = 4.20, l_f = 21.00, results: counter =  11, max_norm_diff = 0.62, valid_rmse = 1.56901158, valid_rmse_diff = 4.8e-06
+# k =   1, l_b = 4.20, l_f = 22.00, results: counter =  12, max_norm_diff = 0.54, valid_rmse = 1.56901096, valid_rmse_diff = 5.6e-06
+
+# Full model - testing
+# smaller test_rmse?
+# k =   1: True
+# k =   2: True
+# k =   4: True
+# k =   8: True
+# k =  16: True
+# k =  32: False
+# k =  64: False
+# k = 128: False
+# k = 256: True
+# k = 384: True
+

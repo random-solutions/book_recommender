@@ -1,0 +1,57 @@
+########################### min_rats = 5:
+
+k = 384, l_b =  3.70, l_f = 10.50, results: counter =  11, max_norm_diff =    1.62, valid_rmse = 1.597589, valid_ndcg = 0.000631, valid_rmse_diff = 6.4e-06, valid_ndcg_diff = 0      
+k = 384, l_b =  3.80, l_f = 10.50, results: counter =  11, max_norm_diff =    1.62, valid_rmse = 1.597745, valid_ndcg = 0.000631, valid_rmse_diff = 6.7e-06, valid_ndcg_diff = 0  
+
+
+
+
+########################### min_rats = 3:
+###
+k3='  1', l_b3='4.4', l_f4='24.5', results: counter3=' 13', max_norm_diff8='0.24592542 ', valid_rmse8='1.56693626 ', valid_rmse_diff12='7.224273e-06'
+###
+###
+k3='  2', l_b3='4.4', l_f4='20  ', results: counter3=' 50', max_norm_diff8='0.09554529 ', valid_rmse8='1.56613306 ', valid_rmse_diff12='9.957887e-06'
+###
+###
+k3='  4', l_b3='4.4', l_f4='21.5', results: counter3=' 32', max_norm_diff8='0.13057425 ', valid_rmse8='1.56660671 ', valid_rmse_diff12='9.609146e-06'
+###
+###
+k3='  8', l_b3='4.4', l_f4='21.5', results: counter3=' 23', max_norm_diff8='0.20670543 ', valid_rmse8='1.5664439  ', valid_rmse_diff12='9.686544e-06'
+###
+###
+k3=' 16', l_b3='4.3', l_f4='14.7', results: counter3=' 60', max_norm_diff8='0.21826737 ', valid_rmse8='1.56662393 ', valid_rmse_diff12='9.793684e-06'
+###
+###
+k3=' 32', l_b3='4.3', l_f4='15  ', results: counter3=' 48', max_norm_diff8='0.17766927 ', valid_rmse8='1.56594599 ', valid_rmse_diff12='9.752892e-06'
+###
+###
+k3=' 64', l_b3='4.3', l_f4='15  ', results: counter3=' 19', max_norm_diff8='0.62904581 ', valid_rmse8='1.5655547  ', valid_rmse_diff12='7.184625e-06'
+###
+###
+k3='128', l_b3='4.2', l_f4='12.5', results: counter3=' 11', max_norm_diff8='1.73617317 ', valid_rmse8='1.5651613  ', valid_rmse_diff12='1.3550239e-05'
+###
+###
+k3='256', l_b3='4.1', l_f4='10.5', results: counter3='  9', max_norm_diff8='2.88022288 ', valid_rmse8='1.56443843 ', valid_rmse_diff12='5.594255e-06'
+###
+###
+k = 384, l_b =  4.10, l_f = 10.50, results: counter =   8, max_norm_diff = 3.28, valid_rmse = 1.56450603, valid_rmse_diff = 2.1e-05
+###
+
+k3='512', l_b3='4  ', l_f4='9.5 ', results: counter3='  7', max_norm_diff8='4.39513394 ', valid_rmse8='1.56388522 ', valid_rmse_diff12='4.4103588e-05'
+
+
+
+
+# Full model - testing:
+# smaller test_rmse?
+# k =   1: False
+# k =   2: False
+# k =   4: True
+# k =   8: True
+# k =  16: False
+# k =  32: True
+# k =  64: True
+# k = 128: True
+# k = 256: True
+# k = 384: True

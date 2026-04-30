@@ -1,0 +1,226 @@
+########################### min_rats = 5:
+
+k = 384, l_b =  1,    l_f =  0.10, beta = 0.001, results: counter =   5, max_norm_diff =   71.34, valid_rmse = 1.833712, valid_ndcg = 0.006776
+k = 384, l_b = 10,    l_f =  0.10, beta = 0.001, results: counter =  22, max_norm_diff =    5.08, valid_rmse = 1.758550, valid_ndcg = 0.010812
+k = 384, l_b = 100,   l_f =  0.10, beta = 0.001, results: counter =   5, max_norm_diff =   32.65, valid_rmse = 1.778840, valid_ndcg = 0.011744
+k = 384, l_b = 1000,  l_f =  0.10, beta = 0.001, results: counter =   6, max_norm_diff =   26.57, valid_rmse = 1.778971, valid_ndcg = 0.012020
+k = 384, l_b = 10000, l_f =  0.10, beta = 0.001, results: counter =   6, max_norm_diff =   26.62, valid_rmse = 1.779608, valid_ndcg = 0.012097
+
+k = 384, l_b =  1,    l_f =  1.00, beta = 0.001, results: counter =   3, max_norm_diff =   60.85, valid_rmse = 1.761299, valid_ndcg = 0.007327
+k = 384, l_b = 10,    l_f =  1.00, beta = 0.001, results: counter =   9, max_norm_diff =    8.08, valid_rmse = 1.707598, valid_ndcg = 0.011499
+k = 384, l_b = 100,   l_f =  1.00, beta = 0.001, results: counter =   8, max_norm_diff =    8.80, valid_rmse = 1.740100, valid_ndcg = 0.013625
+k = 384, l_b = 1000,  l_f =  1.00, beta = 0.001, results: counter =   4, max_norm_diff =   21.59, valid_rmse = 1.763365, valid_ndcg = 0.013722
+k = 384, l_b = 10000, l_f =  1.00, beta = 0.001, results: counter =   4, max_norm_diff =   21.71, valid_rmse = 1.764450, valid_ndcg = 0.013798
+
+k = 384, l_b =  1,    l_f = 10.00, beta = 0.001, results: counter =   2, max_norm_diff =  140.40, valid_rmse = 1.698374, valid_ndcg = 0.008376
+k = 384, l_b = 10,    l_f = 10.00, beta = 0.001, results: counter =   3, max_norm_diff =   12.61, valid_rmse = 1.625110, valid_ndcg = 0.009595
+k = 384, l_b = 100,   l_f = 10.00, beta = 0.001, results: counter =   2, max_norm_diff =   29.53, valid_rmse = 1.736319, valid_ndcg = 0.016862
+k = 384, l_b = 1000,  l_f = 10.00, beta = 0.001, results: counter =   2, max_norm_diff =   32.46, valid_rmse = 1.779021, valid_ndcg = 0.018709
+k = 384, l_b = 10000, l_f = 10.00, beta = 0.001, results: counter =   2, max_norm_diff =   32.92, valid_rmse = 1.784462, valid_ndcg = 0.018967
+-------------------------------------------------------------------------------------------------------------------------------------------------
+k = 384, l_b =  1,    l_f =  0.10, beta = 0.01,  results: counter =   5, max_norm_diff =   71.34, valid_rmse = 1.833712, valid_ndcg = 0.006766
+k = 384, l_b = 10,    l_f =  0.10, beta = 0.01,  results: counter =  18, max_norm_diff =    6.43, valid_rmse = 1.759909, valid_ndcg = 0.010732
+k = 384, l_b = 100,   l_f =  0.10, beta = 0.01,  results: counter =   4, max_norm_diff =   43.50, valid_rmse = 1.779830, valid_ndcg = 0.011744
+k = 384, l_b = 1000,  l_f =  0.10, beta = 0.01,  results: counter =   6, max_norm_diff =   26.57, valid_rmse = 1.778971, valid_ndcg = 0.012020
+k = 384, l_b = 10000, l_f =  0.10, beta = 0.01,  results: counter =   6, max_norm_diff =   26.62, valid_rmse = 1.779608, valid_ndcg = 0.012097
+
+k = 384, l_b =  1,    l_f =  1.00, beta = 0.01,  results: counter =   3, max_norm_diff =   60.85, valid_rmse = 1.761299, valid_ndcg = 0.007131
+k = 384, l_b = 10,    l_f =  1.00, beta = 0.01,  results: counter =   9, max_norm_diff =    8.08, valid_rmse = 1.707598, valid_ndcg = 0.011594
+k = 384, l_b = 100,   l_f =  1.00, beta = 0.01,  results: counter =   7, max_norm_diff =   10.34, valid_rmse = 1.743047, valid_ndcg = 0.013658
+k = 384, l_b = 1000,  l_f =  1.00, beta = 0.01,  results: counter =   4, max_norm_diff =   21.59, valid_rmse = 1.763365, valid_ndcg = 0.013722
+k = 384, l_b = 10000, l_f =  1.00, beta = 0.01,  results: counter =   4, max_norm_diff =   21.71, valid_rmse = 1.764450, valid_ndcg = 0.013798
+
+k = 384, l_b =  1,    l_f = 10.00, beta = 0.01,  results: counter =   2, max_norm_diff =  140.40, valid_rmse = 1.698374, valid_ndcg = 0.008251
+k = 384, l_b = 10,    l_f = 10.00, beta = 0.01,  results: counter =   2, max_norm_diff =   61.15, valid_rmse = 1.630065, valid_ndcg = 0.010399
+k = 384, l_b = 100,   l_f = 10.00, beta = 0.01,  results: counter =   2, max_norm_diff =   29.53, valid_rmse = 1.736319, valid_ndcg = 0.017153
+k = 384, l_b = 1000,  l_f = 10.00, beta = 0.01,  results: counter =   2, max_norm_diff =   32.46, valid_rmse = 1.779021, valid_ndcg = 0.018723
+k = 384, l_b = 10000, l_f = 10.00, beta = 0.01,  results: counter =   2, max_norm_diff =   32.92, valid_rmse = 1.784462, valid_ndcg = 0.018967
+-------------------------------------------------------------------------------------------------------------------------------------------------
+k = 384, l_b =  1,    l_f =  0.10, beta = 0.1,   results: counter =  17, max_norm_diff =   10.20, valid_rmse = 1.705762, valid_ndcg = 0.008034
+k = 384, l_b = 10,    l_f =  0.10, beta = 0.1,   results: counter =  16, max_norm_diff =    7.40, valid_rmse = 1.760368, valid_ndcg = 0.010842
+k = 384, l_b = 100,   l_f =  0.10, beta = 0.1,   results: counter =   4, max_norm_diff =   43.50, valid_rmse = 1.779830, valid_ndcg = 0.011773
+k = 384, l_b = 1000,  l_f =  0.10, beta = 0.1,   results: counter =   6, max_norm_diff =   26.57, valid_rmse = 1.778971, valid_ndcg = 0.012020
+k = 384, l_b = 10000, l_f =  0.10, beta = 0.1,   results: counter =   6, max_norm_diff =   26.62, valid_rmse = 1.779608, valid_ndcg = 0.012097
+k = 384, l_b = 100000,l_f =  0.10, beta = 0.1,   results: counter =   7, max_norm_diff =   22.03, valid_rmse = 1.777486, valid_ndcg = 0.012080
+
+k = 384, l_b =  1,    l_f =  1.00, beta = 0.1,   results: counter =   9, max_norm_diff =    8.81, valid_rmse = 1.618137, valid_ndcg = 0.007038
+k = 384, l_b = 10,    l_f =  1.00, beta = 0.1,   results: counter =  10, max_norm_diff =    7.14, valid_rmse = 1.707993, valid_ndcg = 0.012009
+k = 384, l_b = 100,   l_f =  1.00, beta = 0.1,   results: counter =   7, max_norm_diff =   10.34, valid_rmse = 1.743047, valid_ndcg = 0.013738
+k = 384, l_b = 1000,  l_f =  1.00, beta = 0.1,   results: counter =   4, max_norm_diff =   21.59, valid_rmse = 1.763365, valid_ndcg = 0.013704
+k = 384, l_b = 10000, l_f =  1.00, beta = 0.1,   results: counter =   4, max_norm_diff =   21.71, valid_rmse = 1.764450, valid_ndcg = 0.013805
+k = 384, l_b = 100000,l_f =  1.00, beta = 0.1,   results: counter =   4, max_norm_diff =   21.72, valid_rmse = 1.764579, valid_ndcg = 0.013806
+
+k = 384, l_b =  1,    l_f = 10.00, beta = 0.1,   results: counter =   7, max_norm_diff =    3.24, valid_rmse = 1.627198, valid_ndcg = 0.003738
+k = 384, l_b = 10,    l_f = 10.00, beta = 0.1,   results: counter =   4, max_norm_diff =    7.39, valid_rmse = 1.624628, valid_ndcg = 0.010817
+k = 384, l_b = 100,   l_f = 10.00, beta = 0.1,   results: counter =   3, max_norm_diff =   13.84, valid_rmse = 1.734831, valid_ndcg = 0.016895
+k = 384, l_b = 1000,  l_f = 10.00, beta = 0.1,   results: counter =   2, max_norm_diff =   32.46, valid_rmse = 1.779021, valid_ndcg = 0.018698
+k = 384, l_b = 10000, l_f = 10.00, beta = 0.1,   results: counter =   2, max_norm_diff =   32.92, valid_rmse = 1.784462, valid_ndcg = 0.019064
+k = 384, l_b = 100000,l_f = 10.00, beta = 0.1,   results: counter =   2, max_norm_diff =   32.96, valid_rmse = 1.785001, valid_ndcg = 0.019043
+
+k = 384, l_b = 10000, l_f = 100.00, beta = 0.1,  results: counter =   1, max_norm_diff =  922.88, valid_rmse = 1.805439, valid_ndcg = 0.010852
+
+k = 384, l_b = 10000, l_f =  9.00, beta = 0.1,   results: counter =   2, max_norm_diff =   35.65, valid_rmse = 1.782170, valid_ndcg = 0.018817
+k = 384, l_b = 10000, l_f = 10.00, beta = 0.1,   results: counter =   2, max_norm_diff =   32.92, valid_rmse = 1.784462, valid_ndcg = 0.019064
+k = 384, l_b = 10000, l_f = 11.00, beta = 0.1,   results: counter =   2, max_norm_diff =   30.94, valid_rmse = 1.786641, valid_ndcg = 0.019150
+k = 384, l_b = 10000, l_f = 12.00, beta = 0.1,   results: counter =   2, max_norm_diff =   29.59, valid_rmse = 1.788672, valid_ndcg = 0.018684
+k = 384, l_b = 10000, l_f = 15.00, beta = 0.1,   results: counter =   2, max_norm_diff =   28.17, valid_rmse = 1.793758, valid_ndcg = 0.017518
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+k = 384, l_b =  1,    l_f =  0.10, beta = 0.2,   results: counter =  20, max_norm_diff =    7.97, valid_rmse = 1.706472, valid_ndcg = 0.008175
+k = 384, l_b = 10,    l_f =  0.10, beta = 0.2,   results: counter =  16, max_norm_diff =    7.40, valid_rmse = 1.760368, valid_ndcg = 0.010892
+k = 384, l_b = 100,   l_f =  0.10, beta = 0.2,   results: counter =   4, max_norm_diff =   43.50, valid_rmse = 1.779830, valid_ndcg = 0.011864
+k = 384, l_b = 1000,  l_f =  0.10, beta = 0.2,   results: counter =   6, max_norm_diff =   26.57, valid_rmse = 1.778971, valid_ndcg = 0.012020
+k = 384, l_b = 10000, l_f =  0.10, beta = 0.2,   results: counter =   6, max_norm_diff =   26.62, valid_rmse = 1.779608, valid_ndcg = 0.012097
+
+k = 384, l_b =  1,    l_f =  1.00, beta = 0.2,   results: counter =  10, max_norm_diff =    7.58, valid_rmse = 1.616353, valid_ndcg = 0.007173
+k = 384, l_b = 10,    l_f =  1.00, beta = 0.2,   results: counter =   8, max_norm_diff =    9.27, valid_rmse = 1.706877, valid_ndcg = 0.012453
+k = 384, l_b = 100,   l_f =  1.00, beta = 0.2,   results: counter =   7, max_norm_diff =   10.34, valid_rmse = 1.743047, valid_ndcg = 0.013701
+k = 384, l_b = 1000,  l_f =  1.00, beta = 0.2,   results: counter =   4, max_norm_diff =   21.59, valid_rmse = 1.763365, valid_ndcg = 0.013730
+k = 384, l_b = 10000, l_f =  1.00, beta = 0.2,   results: counter =   4, max_norm_diff =   21.71, valid_rmse = 1.764450, valid_ndcg = 0.013805
+
+k = 384, l_b =  1,    l_f = 10.00, beta = 0.2,   results: counter =  14, max_norm_diff =    1.18, valid_rmse = 1.627156, valid_ndcg = 0.002063
+k = 384, l_b = 10,    l_f = 10.00, beta = 0.2,   results: counter =   4, max_norm_diff =    7.39, valid_rmse = 1.624628, valid_ndcg = 0.009239
+k = 384, l_b = 100,   l_f = 10.00, beta = 0.2,   results: counter =   3, max_norm_diff =   13.84, valid_rmse = 1.734831, valid_ndcg = 0.016271
+k = 384, l_b = 1000,  l_f = 10.00, beta = 0.2,   results: counter =   2, max_norm_diff =   32.46, valid_rmse = 1.779021, valid_ndcg = 0.018778
+k = 384, l_b = 10000, l_f = 10.00, beta = 0.2,   results: counter =   2, max_norm_diff =   32.92, valid_rmse = 1.784462, valid_ndcg = 0.018990
+
+
+
+
+
+
+
+# beta = 0.5
+k = 384, l_b =  2.40, l_f =  9.50, beta = 0.5, results: counter =  11, max_norm_diff =    1.82, valid_rmse = 1.601207, valid_ndcg = 0.001644
+k = 384, l_b =  2.60, l_f =  9.50, beta = 0.5, results: counter =  12, max_norm_diff =    1.61, valid_rmse = 1.600098, valid_ndcg = 0.001673
+k = 384, l_b =  2.80, l_f =  9.50, beta = 0.5, results: counter =  13, max_norm_diff =    1.44, valid_rmse = 1.599313, valid_ndcg = 0.001899
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.5, results: counter =   9, max_norm_diff =    2.43, valid_rmse = 1.598874, valid_ndcg = 0.001926
+k = 384, l_b =  3.20, l_f =  9.50, beta = 0.5, results: counter =  16, max_norm_diff =    1.05, valid_rmse = 1.598515, valid_ndcg = 0.002080
+k = 384, l_b =  3.40, l_f =  9.50, beta = 0.5, results: counter =   9, max_norm_diff =    2.44, valid_rmse = 1.598512, valid_ndcg = 0.002061
+k = 384, l_b =  3.60, l_f =  9.50, beta = 0.5, results: counter =  14, max_norm_diff =    1.30, valid_rmse = 1.598526, valid_ndcg = 0.002330
+
+k = 384, l_b =  3.00, l_f =  8.50, beta = 0.5, results: counter =  10, max_norm_diff =    2.39, valid_rmse = 1.598641, valid_ndcg = 0.002385
+k = 384, l_b =  3.00, l_f =  9.00, beta = 0.5, results: counter =   8, max_norm_diff =    3.05, valid_rmse = 1.598757, valid_ndcg = 0.002064
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.5, results: counter =   9, max_norm_diff =    2.43, valid_rmse = 1.598874, valid_ndcg = 0.001926
+k = 384, l_b =  3.00, l_f = 10.00, beta = 0.5, results: counter =  10, max_norm_diff =    1.97, valid_rmse = 1.599005, valid_ndcg = 0.001870
+k = 384, l_b =  3.00, l_f = 10.50, beta = 0.5, results: counter =  11, max_norm_diff =    1.61, valid_rmse = 1.599151, valid_ndcg = 0.001730
+k = 384, l_b =  3.00, l_f = 11.00, beta = 0.5, results: counter =  14, max_norm_diff =    1.06, valid_rmse = 1.599262, valid_ndcg = 0.001603
+k = 384, l_b =  3.00, l_f = 11.50, beta = 0.5, results: counter =  17, max_norm_diff =    0.74, valid_rmse = 1.599408, valid_ndcg = 0.001555
+
+# beta = 0.2
+k = 384, l_b =  2.40, l_f =  9.50, beta = 0.2, results: counter =  10, max_norm_diff =    2.09, valid_rmse = 1.601222, valid_ndcg = 0.003807
+k = 384, l_b =  2.60, l_f =  9.50, beta = 0.2, results: counter =  11, max_norm_diff =    1.83, valid_rmse = 1.600111, valid_ndcg = 0.004095
+k = 384, l_b =  2.80, l_f =  9.50, beta = 0.2, results: counter =  11, max_norm_diff =    1.83, valid_rmse = 1.599336, valid_ndcg = 0.004200
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.2, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.599070, valid_ndcg = 0.004282
+k = 384, l_b =  3.20, l_f =  9.50, beta = 0.2, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.598796, valid_ndcg = 0.004396
+k = 384, l_b =  3.40, l_f =  9.50, beta = 0.2, results: counter =   8, max_norm_diff =    2.87, valid_rmse = 1.598552, valid_ndcg = 0.004551
+k = 384, l_b =  3.60, l_f =  9.50, beta = 0.2, results: counter =  10, max_norm_diff =    2.11, valid_rmse = 1.598567, valid_ndcg = 0.004770
+
+k = 384, l_b =  3.00, l_f =  8.50, beta = 0.2, results: counter =   8, max_norm_diff =    3.25, valid_rmse = 1.598637, valid_ndcg = 0.005158
+k = 384, l_b =  3.00, l_f =  9.00, beta = 0.2, results: counter =   7, max_norm_diff =    3.66, valid_rmse = 1.598799, valid_ndcg = 0.004639
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.2, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.599070, valid_ndcg = 0.004282
+k = 384, l_b =  3.00, l_f = 10.00, beta = 0.2, results: counter =  10, max_norm_diff =    1.97, valid_rmse = 1.599005, valid_ndcg = 0.004073
+k = 384, l_b =  3.00, l_f = 10.50, beta = 0.2, results: counter =   9, max_norm_diff =    2.14, valid_rmse = 1.599230, valid_ndcg = 0.003828
+k = 384, l_b =  3.00, l_f = 11.00, beta = 0.2, results: counter =  10, max_norm_diff =    1.73, valid_rmse = 1.599379, valid_ndcg = 0.003486
+k = 384, l_b =  3.00, l_f = 11.50, beta = 0.2, results: counter =   9, max_norm_diff =    1.88, valid_rmse = 1.599636, valid_ndcg = 0.003049
+
+# beta = 0.1
+k = 384, l_b =  2.40, l_f =  9.50, beta = 0.1, results: counter =   5, max_norm_diff =    5.57, valid_rmse = 1.601615, valid_ndcg = 0.005721
+k = 384, l_b =  2.60, l_f =  9.50, beta = 0.1, results: counter =   5, max_norm_diff =    5.56, valid_rmse = 1.600525, valid_ndcg = 0.005874
+k = 384, l_b =  2.80, l_f =  9.50, beta = 0.1, results: counter =   7, max_norm_diff =    3.44, valid_rmse = 1.599470, valid_ndcg = 0.006046
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.1, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.599070, valid_ndcg = 0.006471
+k = 384, l_b =  3.20, l_f =  9.50, beta = 0.1, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.598796, valid_ndcg = 0.006594
+k = 384, l_b =  3.40, l_f =  9.50, beta = 0.1, results: counter =   4, max_norm_diff =    7.93, valid_rmse = 1.599323, valid_ndcg = 0.006813
+k = 384, l_b =  3.60, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   14.53, valid_rmse = 1.601248, valid_ndcg = 0.007156
+k = 384, l_b =  4.00, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   14.35, valid_rmse = 1.601543, valid_ndcg = 0.007764
+k = 384, l_b =  4.50, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   14.16, valid_rmse = 1.602533, valid_ndcg = 0.008314
+k = 384, l_b =  5.00, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   14.00, valid_rmse = 1.603998, valid_ndcg = 0.008580
+k = 384, l_b =  6.00, l_f =  9.50, beta = 0.1, results: counter =   4, max_norm_diff =    7.79, valid_rmse = 1.606795, valid_ndcg = 0.009285
+k = 384, l_b =  7.00, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   13.55, valid_rmse = 1.612068, valid_ndcg = 0.009929
+k = 384, l_b =  9.00, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   13.29, valid_rmse = 1.621054, valid_ndcg = 0.010735
+k = 384, l_b = 12.00, l_f =  9.50, beta = 0.1, results: counter =   5, max_norm_diff =    5.69, valid_rmse = 1.633437, valid_ndcg = 0.011127
+k = 384, l_b = 15.00, l_f =  9.50, beta = 0.1, results: counter =   4, max_norm_diff =    7.92, valid_rmse = 1.644767, valid_ndcg = 0.011480
+k = 384, l_b = 20.00, l_f =  9.50, beta = 0.1, results: counter =   5, max_norm_diff =    5.92, valid_rmse = 1.660271, valid_ndcg = 0.012277
+k = 384, l_b = 100.0, l_f =  9.50, beta = 0.1, results: counter =   3, max_norm_diff =   14.48, valid_rmse = 1.734562, valid_ndcg = 0.016737
+k = 384, l_b = 1000,  l_f =  9.50, beta = 0.1, results: counter =   2, max_norm_diff =   33.74, valid_rmse = 1.777998, valid_ndcg = 0.018776
+k = 384, l_b = 10000, l_f =  9.50, beta = 0.1, results: counter =   2, max_norm_diff =   34.18, valid_rmse = 1.783327, valid_ndcg = 0.019005
+k = 384, l_b = 100000000, l_f =9.50, beta=0.1, results: counter =   2, max_norm_diff =   34.23, valid_rmse = 1.783912, valid_ndcg = 0.019013
+
+
+k = 384, l_b =  3.00, l_f =  8.50, beta = 0.1, results: counter =   3, max_norm_diff =   16.18, valid_rmse = 1.602181, valid_ndcg = 0.007521
+k = 384, l_b =  3.00, l_f =  9.00, beta = 0.1, results: counter =   3, max_norm_diff =   15.50, valid_rmse = 1.602084, valid_ndcg = 0.007097
+k = 384, l_b =  3.00, l_f =  9.50, beta = 0.1, results: counter =   6, max_norm_diff =    4.26, valid_rmse = 1.599070, valid_ndcg = 0.006471
+k = 384, l_b =  3.00, l_f = 10.00, beta = 0.1, results: counter =   6, max_norm_diff =    4.01, valid_rmse = 1.599277, valid_ndcg = 0.005828
+k = 384, l_b =  3.00, l_f = 10.50, beta = 0.1, results: counter =   6, max_norm_diff =    3.76, valid_rmse = 1.599494, valid_ndcg = 0.005436
+k = 384, l_b =  3.00, l_f = 11.00, beta = 0.1, results: counter =   4, max_norm_diff =    6.76, valid_rmse = 1.600284, valid_ndcg = 0.005066
+k = 384, l_b =  3.00, l_f = 11.50, beta = 0.1, results: counter =   4, max_norm_diff =    6.39, valid_rmse = 1.600475, valid_ndcg = 0.004692
+
+
+
+########################### min_rats = 3:
+###
+k3='  1', l_b3='4.5', l_f4='27  ', results: counter3=' 15', max_norm_diff8='0.1016935  ', valid_rmse8='1.56677998 ', valid_rmse_diff12='8.65678e-06 '
+###
+###
+k3='  2', l_b3='4.4', l_f4='21  ', results: counter3=' 28', max_norm_diff8='0.12487076 ', valid_rmse8='1.56645256 ', valid_rmse_diff12='9.911868e-06'
+###
+###
+k3='  4', l_b3='4.4', l_f4='24.5', results: counter3=' 15', max_norm_diff8='0.13439332 ', valid_rmse8='1.56670286 ', valid_rmse_diff12='7.370491e-06'
+###
+###
+k3='  8', l_b3='4.4', l_f4='20  ', results: counter3=' 10', max_norm_diff8='0.63118009 ', valid_rmse8='1.56653033 ', valid_rmse_diff12='4.470497e-06'
+###
+###
+k3=' 16', l_b3='4.4', l_f4='20.5', results: counter3=' 12', max_norm_diff8='0.43161113 ', valid_rmse8='1.56644762 ', valid_rmse_diff12='3.964072e-06'
+###
+###
+k3=' 32', l_b3='4.3', l_f4='15  ', results: counter3='  8', max_norm_diff8='1.77988309 ', valid_rmse8='1.56557968 ', valid_rmse_diff12='3.039806e-05'
+###
+###
+k3=' 64', l_b3='4.2', l_f4='12  ', results: counter3=' 10', max_norm_diff8='2.14220969 ', valid_rmse8='1.56622278 ', valid_rmse_diff12='7.473817e-06'
+###
+###
+k3='128', l_b3='4.2', l_f4='11.5', results: counter3=' 10', max_norm_diff8='2.23577819 ', valid_rmse8='1.56521474 ', valid_rmse_diff12='1.9182945e-05'
+###
+###
+k3='256', l_b3='4  ', l_f4='10  ', results: counter3='  8', max_norm_diff8='3.48584364 ', valid_rmse8='1.56452992 ', valid_rmse_diff12='7.199337e-06'
+###
+###
+k = 384, l_b =  4.00, l_f =  9.50, results: counter =   8, max_norm_diff = 3.71         , valid_rmse = 1.56385632,   valid_rmse_diff = 2.8e-05
+###
+
+k3='512', l_b3='4  ', l_f4='9   ', results: counter3='  7', max_norm_diff8='4.65027425 ', valid_rmse8='1.56365951 ', valid_rmse_diff12='4.2779299e-05'
+
+
+# MISTAKES IN TUNING:
+# k =  32, l_b = 4.30, l_f = 15.00, results: counter =   8, max_norm_diff = 1.78, valid_rmse = 1.56558414, valid_rmse_diff = 3e-05
+# k =  32, l_b = 4.40, l_f = 15.00, results: counter =   8, max_norm_diff = 1.78, valid_rmse = 1.56558890, valid_rmse_diff = 3e-05
+# k =  32, l_b = 4.20, l_f = 15.00, results: counter =   8, max_norm_diff = 1.78, valid_rmse = 1.56560113, valid_rmse_diff = 3.1e-05
+# k =  32, l_b = 4.30, l_f = 14.50, results: counter =   8, max_norm_diff = 1.92, valid_rmse = 1.56558034, valid_rmse_diff = 3.7e-05
+# k =  32, l_b = 4.30, l_f = 15.50, results: counter =   8, max_norm_diff = 1.65, valid_rmse = 1.56562147, valid_rmse_diff = 2.7e-05
+
+# Full model - testing
+# smaller test_rmse?
+# k =   1: True
+# k =   2: False
+# k =   4: True
+# k =   8: True
+# k =  16: True
+# k =  32: True
+# k =  64: True
+# k = 128: True
+# k = 256: True
+# k = 384: True
+
+# --------------------------------------------------------------------
+# seed = 103
+# global mean                           test_rmse = 1.8087624016357353
+# only biases                           test_rmse = 1.5704328421158182
+# k = 1,   l_bias = 4.5, l_fact = 24,   test_rmse = 1.5704970647787702
+# k = 2,   l_bias = 4.5, l_fact = 18.5, test_rmse = 1.5717291565825728
+# k = 4,   l_bias = 4.6, l_fact = 25,   test_rmse = 1.5703045287839543
+# k = 8,   l_bias = 4.4, l_fact = 20,   test_rmse = 1.5702971262712437
+# k = 16,  l_bias = 4.3, l_fact = 14.7, test_rmse = 1.5717814048614096
+# k = 32,  l_bias = 4.3, l_fact = 13.7, test_rmse = 1.5699819711228356
+# k = 256, l_bias = 4,   l_fact = 10,   test_rmse = 1.568533842304493
+# k = 512, l_bias = 3.9, l_fact = 10,   test_rmse = 1.5690911174883715
